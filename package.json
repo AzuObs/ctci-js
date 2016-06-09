@@ -1,0 +1,30 @@
+{
+  "name": "ctci-js",
+  "version": "1.0.0",
+  "description": "JS solutions to CtCI",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AzuObs/ctci-js.git"
+  },
+  "author": "Daniel Leaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzuObs/ctci-js/issues"
+  },
+  "homepage": "https://github.com/AzuObs/ctci-js",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.5",
+    "karma-jasmine": "^1.0.2",
+    "watchify": "^3.7.0"
+  }
+}
